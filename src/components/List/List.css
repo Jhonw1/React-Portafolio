@@ -1,0 +1,20 @@
+li{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    width: 50%;
+
+}
+li a{
+    font-size: 20px;
+    text-decoration: none;
+    color:gray ;
+    padding: 1%;
+    border: 3px solid rgb(0,0,0,0) ;
+}
+ li a:hover{
+    color: aqua;
+    border: aqua solid 3px;
+
+ }
+

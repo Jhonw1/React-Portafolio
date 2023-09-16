@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #1F242D;
+}
+.Logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 40%;
+    color: white;
+    Font-family: Trebuchet MS;
+}
+.Logo h1{
+    display: flex;
+    align-items: center;
+}

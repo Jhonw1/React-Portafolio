@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.sectionInicio{
+    background-color: #1F242D;
+    display: grid;
+    grid-template-columns: 10% 40% 50%;
+    grid-template-rows: 20% 80%;
+    height: 80vh;   
+    color: white;
+}
+.box2{
+    display: grid;
+    grid-template-columns: 20% 70% 10%;
+    grid-column: 3/4;
+    grid-row: 2/3;
+    
+}
+.box1{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.box1 h2{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 30px;
+    Font-family: Century Gothic;
+
+}
+.box1 h1{
+    margin-top: 0;
+    margin-bottom: 0;
+    Font-family: Century Gothic;
+    font-size: 45px;
+}
+.box1 p{
+    font-size: 21px;
+    line-height: 120%;
+    Font-family: Century Gothic;
+}
+.images {
+    display: grid;
+    grid-template-columns: 10% 5% 10% ;
+    grid-template-rows: 100%;
+    height: 10vh;
+    align-items: center;
+}
+.images img{
+    width: 60%;
+    border: aqua solid ;
+    border-radius: 40%;
+    padding: 10px;
+}
+
+
+.img3{
+    display: grid;
+    grid-column: 3/4;
+    cursor: pointer;
+
+}
+.img3:hover{
+    transform: scale(1.2,1.2);
+    transition-duration: 0.4s ;
+}
+
+
+.img1{
+    cursor: pointer;
+}
+.img1:hover{
+    transform: scale(1.2,1.2);
+    transition-duration: 0.4s ;
+  
+
+}
+
+ .box2 img{  
+    width: 50%;
+    border-radius: 50%;
+    border: black solid 5px;
+    box-shadow: 0px 0px 10px 5px aqua;
+    grid-column: 2/3;
+
+ }

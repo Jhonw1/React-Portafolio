@@ -1,0 +1,12 @@
+.menu ul{
+    display: flex;
+    padding-inline-start: 0px;
+    width: 100%;
+    
+}
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    width: 30%;
+    Font-family: Trebuchet MS;
+}
